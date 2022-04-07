@@ -25,6 +25,7 @@ button {
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
   gap: 40px;
+  height: calc(100vh - 60px);
 }
 
 .intro {
@@ -154,7 +155,7 @@ footer {
   margin-left: -50px;
   margin-right: -50px;
   text-align: center;
-  height: 219px;
+  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
